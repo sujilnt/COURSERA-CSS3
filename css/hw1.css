@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+
+header{
+    background:#B2B2B2;
+    height:215px;
+    background: url(../images/flywheel.jpg) no-repeat center top;
+    background-size: 100%;
+}
+h1{
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    padding:15px 0px 50px 0px;
+    font-size: 30px;
+}
+nav a{
+    color:black;
+    background:whitesmoke;
+    text-decoration: none;
+    margin:1%;
+    padding :1.5% 7% 1.5% 7%;
+    opacity:0.4;
+    font-weight:bold;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0px 0px 12px black;
+}
+nav a:hover{
+    opacity: 1;
+}
+.active{
+    opacity:1;
+}
+.right{
+    background:grey;
+}
+h2{
+    color:#621A80;
+    text-transform:uppercase;
+}
+nav{
+    text-align: center;
+}
+img{
+    width:80% !important;
+    margin:2px;
+    display:block;
+    border:1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+.left{
+    position:relative;
+    width:25%;
+    background:#747A03;
+    padding:0px 0px 0px 4%;
+    float:left;
+    min-height:100vh;
+}
+aside a {
+    margin:25px;
+    padding:40px;
+}
+.right{
+    margin:0%;
+    padding:20px;
+    float:right;
+    width:75%;
+    display: inline-block;
+    background: white;
+    position:relative;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 25px;
+    color:black;
+}
+table{
+    margin:30px 0px 0px 10%;
+}
+table tr th{
+    color:white;
+    background: #8FA560;
+    padding:12px;
+    border-radius:3px 3px 0px 0px;
+    border-bottom:4px solid #AAE06B;
+    box-shadow: 0px 0px 5px #8FA560;
+}
+table tr th:first-child{
+    text-align: left;
+}
+table tr td{
+    background: #d6ecc8;
+    border-radius: 2px;
+    padding:10px;
+    color: grey;
+    font-family: inherit;
+    text-align: center;
+    opacity:0.8;
+    box-shadow: 0px 0px 6px #d6ecc8;
+}
+table tr td:first-child{
+    text-align: left;
+}
+table tr td:hover{
+    opacity: 1;
+    color:darkseagreen;
+}
+
+/*
+It works good in laptop screen I use macbook AIR
+*/
